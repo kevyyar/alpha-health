@@ -1,0 +1,201 @@
+.main-title-description {
+  padding-top: 70px;
+}
+
+.title-logo {
+  width: 85px;
+  height: 85px;
+  position: relative;
+  top: 9px;
+}
+
+.footer-logo {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  bottom: -6px;
+}
+
+.page1-img,
+.page2-img {
+  border-radius: 4em 8em;
+}
+
+.page2-img {
+  width: 100%;
+}
+
+.logo-title {
+  height: 40px;
+  width: 40px;
+}
+
+.p-bigger {
+  font-size: 17px;
+}
+
+.services-offer {
+  text-align: center;
+  h1.themecolor {
+    margin-bottom: 150px;
+  }
+}
+
+.section-plans {
+  /* background-color: #f4f4f4; */
+}
+
+.plan-box {
+  background-color: #fff;
+  border-radius: 5px;
+  width: 90%;
+  margin-left: 5%;
+  /* vertical-align: middle; */
+}
+
+.plan-box div {
+  padding: 15px;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.plan-box ul {
+  list-style: none;
+  line-height: 200%;
+}
+
+.plan-box i {
+  margin-right: 15px;
+}
+
+.plan-box div:first-child {
+  background-color: #fcfcfc;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  box-shadow: 0 2px 2px #efefef;
+}
+
+.plan-box div:last-child {
+  /*to center the button in price plans */
+  text-align: center;
+  border: none;
+}
+
+.plan-price {
+  font-size: 290%;
+  font-weight: 100;
+  margin-bottom: 10px;
+  color: #e67e22;
+}
+
+.plan-price-meal {
+  font-size: 85%;
+}
+
+.month-plan {
+  font-size: 40%;
+  /* color: #e67e22; */
+  font-weight: 300;
+}
+
+.btn:link,
+.btn:visited,
+input[type="submit"] {
+  display: inline-block;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-weight: 300;
+  margin-top: 15px;
+  border-radius: 200px;
+  transition: background-color 0.4s, border 0.4s, color 0.4s;
+}
+
+.btn-full:link,
+.btn-full:visited,
+input[type="submit"] {
+  background-color: #e67e22;
+  border: 1px solid #e67e22;
+  color: #fff;
+  margin-right: 15px;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+  border: 1px solid #e67e22;
+  color: #e67e22;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #cf6d17;
+}
+
+.btn-full:hover,
+.btn-full:active,
+input[type="submit"] {
+  border: 1px solid #cf6d17;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active,
+input[type="submit"]:hover,
+input[type="submit"]:active {
+  border: 1px solid #cf6d17;
+  color: #fff;
+}
+
+.content_wrapper > .see-menu-btn {
+  text-align: center;
+}
+
+/* media queries */
+@media (max-width: 770px) {
+  .title-logo {
+    position: relative;
+    left: 20px;
+  }
+}
+
+@media only (max-width: 600px) {
+  .button_label {
+    margin-bottom: 30px;
+  }
+}
+
+
+@media (max-width: 543px) {
+  .main-title {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 440px) {
+  .title-logo {
+    position: relative;
+    right: 20px;
+  }
+
+  .main-title {
+    font-size: 43px;
+  }
+}
+  .welcome-title {
+    font-size: 50px;
+  }
+}
+
+/* google maps responsive */
+/* .map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+  margin: 0 auto;
+} */
+
+/* .map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+} */
